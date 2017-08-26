@@ -51,13 +51,13 @@
     "tap": "10.3.4"
   },
   "dependencies": {
-    "@unction/append": "1.0.4",
-    "@unction/istype": "1.0.6",
-    "@unction/mapvalues": "2.0.4",
-    "@unction/mergeright": "1.0.4",
-    "@unction/prepend": "1.0.4",
-    "@unction/reducevalues": "1.0.9",
-    "@unction/reducewithvaluekey": "2.0.4",
+    "@unction/append": "2.1.0",
+    "@unction/istype": "2.0.0",
+    "@unction/mapvalues": "3.0.0",
+    "@unction/mergeright": "2.0.1",
+    "@unction/prepend": "2.1.0",
+    "@unction/reducevalues": "2.2.0",
+    "@unction/reducewithvaluekey": "4.1.0",
     "ramda": "0.24.1"
   },
   "nyc": {
