@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-magic-numbers */
 import {test} from "tap"
 
-import flattenTree from "./source"
+import flattenTree from "./"
 
 test(({same, end}) => {
   same(
