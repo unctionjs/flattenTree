@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> ((any -> any) -> IterableType -> IterableType) -> (any -> any) -> number -> IterableType -> IterableType
+> ((any -> any) -> FunctorType -> FunctorType) -> (any -> any) -> number -> FunctorType -> FunctorType
 
 Takes a tree and creates a single object where the root keys are conjoined nested keys.
 
