@@ -54,7 +54,7 @@
     "@unction/append": "2.1.0",
     "@unction/istype": "2.0.0",
     "@unction/mapvalues": "3.0.0",
-    "@unction/mergeright": "2.0.1",
+    "@unction/mergeright": "3.0.0",
     "@unction/prepend": "2.1.0",
     "@unction/reducevalues": "2.2.0",
     "@unction/reducewithvaluekey": "4.1.0",
