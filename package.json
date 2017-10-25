@@ -52,11 +52,11 @@
   "dependencies": {
     "@unction/append": "2.8.0",
     "@unction/istype": "2.7.0",
-    "@unction/mapvalues": "3.12.0",
-    "@unction/mergeright": "3.11.0",
+    "@unction/mapvalues": "3.13.0",
+    "@unction/mergeright": "3.12.0",
     "@unction/prepend": "2.8.0",
-    "@unction/reducevalues": "2.13.0",
-    "@unction/reducewithvaluekey": "4.13.0",
+    "@unction/reducevalues": "2.14.0",
+    "@unction/reducewithvaluekey": "4.14.0",
     "ramda": "0.24.1"
   },
   "nyc": {
