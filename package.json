@@ -52,7 +52,7 @@
   "dependencies": {
     "@unction/append": "2.8.0",
     "@unction/istype": "2.7.0",
-    "@unction/mapvalues": "3.32.0",
+    "@unction/mapvalues": "3.33.0",
     "@unction/mergeright": "3.31.0",
     "@unction/prepend": "2.8.0",
     "@unction/reducevalues": "2.33.0",
