@@ -52,10 +52,10 @@
   "dependencies": {
     "@unction/append": "2.10.0",
     "@unction/istype": "2.9.0",
-    "@unction/mapvalues": "3.36.0",
+    "@unction/mapvalues": "3.37.0",
     "@unction/mergeright": "3.33.0",
     "@unction/prepend": "2.10.0",
-    "@unction/reducevalues": "2.36.0",
+    "@unction/reducevalues": "2.37.0",
     "@unction/reducewithvaluekey": "4.35.0",
     "ramda": "0.24.1"
   },
