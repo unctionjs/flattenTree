@@ -56,7 +56,7 @@
     "@unction/mergeright": "3.34.0",
     "@unction/prepend": "2.12.0",
     "@unction/reducevalues": "2.39.0",
-    "@unction/reducewithvaluekey": "4.37.0",
+    "@unction/reducewithvaluekey": "4.39.0",
     "ramda": "0.24.1"
   },
   "nyc": {
