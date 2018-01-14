@@ -53,12 +53,12 @@
   },
   "dependencies": {
     "@unction/append": "4.0.0",
-    "@unction/ispopulated": "7.0.0",
+    "@unction/ispopulated": "8.0.0",
     "@unction/istype": "4.0.0",
-    "@unction/mapvalues": "6.0.0",
+    "@unction/mapvalues": "7.0.0",
     "@unction/mergeright": "5.0.0",
     "@unction/prepend": "4.0.0",
-    "@unction/reducevalues": "5.0.0",
+    "@unction/reducevalues": "6.0.0",
     "@unction/reducewithvaluekey": "8.0.0",
     "ramda": "0.24.1"
   },
