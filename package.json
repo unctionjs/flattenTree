@@ -53,7 +53,7 @@
   },
   "dependencies": {
     "@unction/append": "4.0.0",
-    "@unction/ispopulated": "9.0.0",
+    "@unction/ispopulated": "10.0.0",
     "@unction/istype": "4.0.0",
     "@unction/mapvalues": "8.0.0",
     "@unction/mergeright": "5.0.0",
