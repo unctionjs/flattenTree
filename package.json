@@ -53,9 +53,9 @@
   },
   "dependencies": {
     "@unction/append": "4.0.0",
-    "@unction/ispopulated": "8.0.0",
+    "@unction/ispopulated": "9.0.0",
     "@unction/istype": "4.0.0",
-    "@unction/mapvalues": "7.0.0",
+    "@unction/mapvalues": "8.0.0",
     "@unction/mergeright": "5.0.0",
     "@unction/prepend": "4.0.0",
     "@unction/reducevalues": "6.0.0",
