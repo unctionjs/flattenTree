@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> StringType -> RecordTreeType -> RecordType
+> StringType => RecordTreeType => RecordType
 
 Takes a tree and creates a single object where the root keys are conjoined nested keys.
 
