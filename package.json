@@ -57,7 +57,7 @@
     "@unction/istype": "4.0.0",
     "@unction/mapvalues": "8.0.0",
     "@unction/mergeright": "5.0.0",
-    "@unction/prepend": "4.0.0",
+    "@unction/prepend": "5.0.0",
     "@unction/reducevalues": "6.0.0",
     "@unction/reducewithvaluekey": "8.0.0",
     "ramda": "0.24.1"
