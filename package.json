@@ -53,13 +53,13 @@
   },
   "dependencies": {
     "@unction/append": "4.0.0",
-    "@unction/ispopulated": "11.0.0",
+    "@unction/ispopulated": "13.0.0",
     "@unction/istype": "4.0.0",
-    "@unction/mapvalues": "8.0.0",
+    "@unction/mapvalues": "9.0.0",
     "@unction/mergeright": "5.0.0",
     "@unction/prepend": "5.0.0",
-    "@unction/reducevalues": "6.0.0",
-    "@unction/reducewithvaluekey": "8.0.0",
+    "@unction/reducevalues": "7.0.0",
+    "@unction/reducewithvaluekey": "10.1.0",
     "ramda": "0.24.1"
   },
   "nyc": {
