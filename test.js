@@ -1,7 +1,7 @@
 /* eslint-disable no-magic-numbers */
-import {test} from "tap"
+import {test} from "tap";
 
-import flattenTree from "./index"
+import flattenTree from "./index";
 
 test(({same, end}) => {
   same(
@@ -29,7 +29,7 @@ test(({same, end}) => {
       "data-points": [1, 2, 3],
       "aria-role": "navigation",
     }
-  )
+  );
 
-  end()
-})
+  end();
+});
