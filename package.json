@@ -1,6 +1,6 @@
 {
   "name": "@unction/flattentree",
-  "version": "13.0.0",
+  "version": "14.0.0",
   "description": "Takes a tree and creates a single object where the root keys are conjoined nested keys",
   "keywords": [
     "unction",
