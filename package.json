@@ -59,7 +59,6 @@
     "@unction/prepend": "6.5.0",
     "@unction/reducevalues": "8.5.0",
     "@unction/reducewithvaluekey": "11.5.0",
-    "core-js": "3.0.1",
     "ramda": "0.24.1"
   },
   "nyc": {
