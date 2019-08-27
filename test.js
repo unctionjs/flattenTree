@@ -1,7 +1,7 @@
 /* eslint-disable no-magic-numbers */
 import {test} from "tap";
 
-import flattenTree from "./index";
+import flattenTree from "./";
 
 test(({same, end}) => {
   same(
