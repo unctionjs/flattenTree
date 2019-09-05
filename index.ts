@@ -7,18 +7,58 @@ import prepend from "@unction/prepend";
 import append from "@unction/append";
 import mergeRight from "@unction/mergeright";
 import {join} from "ramda";
-export default function flattenTree (delimiter) {
-  return function flattenTreeDelimiter (recordTree) {
-    return reduceValues((accumulated) => ([keys, value]) => mergeRight(accumulated)({
-      [join(delimiter)(keys)]: value,
-    }))({})(function flattenTreeDelimiterMapping (nested) {
-      return reduceWithValueKey((accumulated) => (treeOrLeaf) => (key) => {
-        if (isType("Object")(treeOrLeaf) && isPopulated(treeOrLeaf)) {
-          return mergeRight(accumulated)(mapValues(([keys, leaf]) => append(leaf)([prepend(key)(keys)]))(flattenTreeDelimiterMapping(treeOrLeaf)));
-        }
+import {RecordType} from "./types";
+import {TextType} from "./types";
 
-        return prepend([[key], treeOrLeaf])(accumulated);
-      })([])(nested);
-    }(recordTree));
+export default function flattenTree<A, B> (delimiter: TextType) {
+  return function flattenTreeDelimiter (recordTree: RecordType<A, B>) {
+    return reduceValues(
+      (accumulated: RecordType<A, B>) =>
+        ([keys, value]: [Array<A>, B]) =>
+          mergeRight(
+            accumulated
+          )({
+            [join(delimiter)(keys)]: value,
+          })
+    )(
+      {}
+    )(
+      function flattenTreeDelimiterMapping (nested) {
+        return reduceWithValueKey(
+          (accumulated: RecordType<A, B>) =>
+            (treeOrLeaf: RecordType<A, B>) =>
+              (key: A) => {
+                if (isType("Object")(treeOrLeaf) && isPopulated(treeOrLeaf)) {
+                  return mergeRight(
+                    accumulated
+                  )(
+                    mapValues(
+                      ([keys, leaf]: [Array<A>, B]) =>
+                        append(
+                          leaf
+                        )(
+                          [prepend(key)(keys)]
+                        )
+                    )(
+                      flattenTreeDelimiterMapping(treeOrLeaf)
+                    )
+                  );
+                }
+
+                return prepend(
+                  [[key], treeOrLeaf]
+                )(
+                  accumulated
+                );
+              }
+        )(
+          []
+        )(
+          nested
+        );
+      }(
+        recordTree
+      )
+    );
   };
 }
