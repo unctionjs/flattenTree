@@ -1,7 +1,7 @@
 /* eslint-disable no-magic-numbers */
 import flattenTree from "./index";
 
-test(() => {
+test("works", () => {
   expect(flattenTree("-")(
     {
       aria: {role: "navigation"},
