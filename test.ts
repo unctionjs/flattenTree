@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers */
-import flattenTree from "./index.ts";
+import flattenTree from "./index";
 
 test(() => {
   expect(flattenTree("-")(
