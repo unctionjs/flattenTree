@@ -53,14 +53,14 @@
     "typescript": "3.5.1"
   },
   "dependencies": {
-    "@unction/append": "6.7.0",
-    "@unction/ispopulated": "14.6.0",
-    "@unction/istype": "6.7.0",
-    "@unction/mapvalues": "10.6.0",
-    "@unction/mergeright": "7.7.0",
-    "@unction/prepend": "6.6.0",
-    "@unction/reducevalues": "8.7.0",
-    "@unction/reducewithvaluekey": "11.7.0",
+    "@unction/append": "6.8.0",
+    "@unction/ispopulated": "14.8.0",
+    "@unction/istype": "6.8.0",
+    "@unction/mapvalues": "10.8.0",
+    "@unction/mergeright": "7.8.0",
+    "@unction/prepend": "6.8.0",
+    "@unction/reducevalues": "8.8.0",
+    "@unction/reducewithvaluekey": "11.8.0",
     "ramda": "0.24.1"
   },
   "files": [
