@@ -7,13 +7,13 @@ import prepend from "@unction/prepend";
 import append from "@unction/append";
 import mergeRight from "@unction/mergeright";
 import {join} from "ramda";
-import {RecordType} from "./types";
-import {TextType} from "./types";
 
-export default function flattenTree<A, B> (delimiter: TextType) {
-  return function flattenTreeDelimiter (recordTree: RecordType<A, B>) {
+import {string} from "./types";
+
+export default function flattenTree<A, B> (delimiter: string) {
+  return function flattenTreeDelimiter (recordTree: Record<string | number | symbol, B> | Map<A, B>) {
     return reduceValues(
-      (accumulated: RecordType<A, B>) =>
+      (accumulated: Record<string | number | symbol, B> | Map<A, B>) =>
         ([keys, value]: [Array<A>, B]) =>
           mergeRight(
             accumulated
@@ -25,8 +25,8 @@ export default function flattenTree<A, B> (delimiter: TextType) {
     )(
       function flattenTreeDelimiterMapping (nested) {
         return reduceWithValueKey(
-          (accumulated: RecordType<A, B>) =>
-            (treeOrLeaf: RecordType<A, B>) =>
+          (accumulated: Record<string | number | symbol, B> | Map<A, B>) =>
+            (treeOrLeaf: Record<string | number | symbol, B> | Map<A, B>) =>
               (key: A) => {
                 if (isType("Object")(treeOrLeaf) && isPopulated(treeOrLeaf)) {
                   return mergeRight(

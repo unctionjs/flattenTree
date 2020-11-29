@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> TextType => RecordType<A, B> => RecordType<A, B>
+> string => Record<string | number | symbol, B> | Map<A, B> => Record<string | number | symbol, B> | Map<A, B>
 
 Takes a tree and creates a single object where the root keys are conjoined nested keys.
 
