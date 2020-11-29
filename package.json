@@ -60,14 +60,14 @@
     "typescript": "^4.1.2"
   },
   "dependencies": {
-    "@unction/append": "^6.11.0",
-    "@unction/ispopulated": "^14.11.0",
-    "@unction/istype": "^6.11.0",
-    "@unction/mapvalues": "^10.11.0",
-    "@unction/mergeright": "^7.11.0",
-    "@unction/prepend": "^6.11.0",
-    "@unction/reducevalues": "^8.11.0",
-    "@unction/reducewithvaluekey": "^11.11.0",
+    "@unction/append": "^6.12.0",
+    "@unction/ispopulated": "^14.12.0",
+    "@unction/istype": "^6.12.0",
+    "@unction/mapvalues": "^10.12.0",
+    "@unction/mergeright": "^7.12.0",
+    "@unction/prepend": "^6.12.0",
+    "@unction/reducevalues": "^8.12.0",
+    "@unction/reducewithvaluekey": "^11.12.0",
     "ramda": "0.24.1"
   }
 }
