@@ -70,7 +70,7 @@
     "@unction/append": "^6.13.0",
     "@unction/ispopulated": "^14.13.0",
     "@unction/istype": "^6.13.0",
-    "@unction/mapvalues": "^10.12.0",
+    "@unction/mapvalues": "^10.13.0",
     "@unction/mergeright": "^7.13.0",
     "@unction/prepend": "^6.13.0",
     "@unction/reducevalues": "^8.13.0",
